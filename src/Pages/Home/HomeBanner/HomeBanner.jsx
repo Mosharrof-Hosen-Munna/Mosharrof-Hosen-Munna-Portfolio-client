@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import HomeBannerClasses from "./HomeBanner.module.css";
-import headerImage from '../../../Images/header-image.png'
+import headerImage from '../../../Assets/Images/header-img.png'
 import resume from '../../../Assets/Mosharrof Hosen Munna Resume.pdf'
 
 const HomeBanner = () => {

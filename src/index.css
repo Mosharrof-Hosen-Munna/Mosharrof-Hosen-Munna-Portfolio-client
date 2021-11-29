@@ -17,6 +17,15 @@ code {
 .bg-blue{
   background-color: #546de5 !important;
 }
+.text-blue{
+  color:#546de5 !important
+}
+.bg-light-blue{
+  background-color: #c8d6e5 !important;
+}
+.text-light-blue{
+  color:#c8d6e5
+}
 /* #004354 */
 /* #546de5 */
 .text-pink{
@@ -27,7 +36,6 @@ code {
     background: linear-gradient(90deg, #00d2d3, #546de5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 80px;
 }
 /* button-blue-style */
 .button-blue{

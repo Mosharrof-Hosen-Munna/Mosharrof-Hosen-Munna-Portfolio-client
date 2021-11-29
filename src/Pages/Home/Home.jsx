@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMe from './AboutMe/AboutMe'
+import ContactMe from './ContactMe/ContactMe'
 import HomeBanner from './HomeBanner/HomeBanner'
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <div>
          <HomeBanner/>
          <AboutMe/>
+         <ContactMe/>
         </div>
     )
 }
