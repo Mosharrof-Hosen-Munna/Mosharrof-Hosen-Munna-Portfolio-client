@@ -1,11 +1,13 @@
 import React from 'react'
+import ContactMe from '../Home/ContactMe/ContactMe'
+import ContactBanner from './ContactBanner/ContactBanner'
 
 const Contact = () => {
     return (
-        <div>
-            
-            <h1 className='text-gradient text-center'>Coming Soon!</h1>
-        </div>
+        <>
+            <ContactBanner/>
+            <ContactMe/>
+        </>
     )
 }
 

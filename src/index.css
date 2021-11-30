@@ -14,6 +14,10 @@ code {
 
 
 /* custom style start */
+.bg-dark-light{
+  background-color: #57606f !important;
+}
+
 .bg-blue{
   background-color: #546de5 !important;
 }
@@ -21,10 +25,10 @@ code {
   color:#546de5 !important
 }
 .bg-light-blue{
-  background-color: #c8d6e5 !important;
+  background-color: #f1f2f6 !important;
 }
 .text-light-blue{
-  color:#c8d6e5
+  color:#f1f2f6
 }
 /* #004354 */
 /* #546de5 */

@@ -1,0 +1,69 @@
+/* .project-img-container{
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+.project-img{
+    bottom: 100%;
+	width: 100%;
+	height: auto;
+	position: absolute;
+    padding:0;
+	transition:  11s;
+}
+.project-img:hover{
+    top: 100%;
+    transition: all 11s;
+    bottom: 0;
+} */
+.project-img{
+    transition: 3s;
+   
+}
+.project-img.project1{
+    background: url(../../../Assets/Images/projects/smart-fury-home.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+.project-img.project-2{
+    background: url(../../../Assets/Images/projects/holiday-planners-home.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+.project-img.project3{
+    background: url(../../../Assets/Images/projects/medicare-home.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+.project-img:hover{
+    transition: 3s;
+    background-position: bottom center;
+}
+.bg-1{
+    background: linear-gradient(90deg, #00d2d3, #546de5);
+}
+.bg-2{
+    background: linear-gradient(90deg, #9000d3, #e554d9);
+}
+.bg-3{
+    background: linear-gradient(90deg, #199696, #0b5674);
+}
+.project-technology span{
+    cursor: pointer;
+}
+.project-desc{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.text-justify{
+    text-align: justify;
+}

@@ -7,7 +7,7 @@ const Navigation = () => {
   return (
     <Navbar className='bg-blue fw-bold text-white' sticky='top' expand="lg">
       <Container>
-        <Navbar.Brand className='text-white' href="#home">MUNNA .</Navbar.Brand>
+        <NavLink className='text-white text-decoration-none fs-3' to='/'>MUN<span style={{color:'#00ff7e'}}>NA .</span></NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
@@ -16,6 +16,7 @@ const Navigation = () => {
             <NavLink className='nav-link text-white' to="/services">Services</NavLink>
 
             <NavLink className='nav-link text-white' to="/contact">Skills</NavLink>
+            <NavLink className='nav-link text-white' to="/blogs">Blogs</NavLink>
             <NavLink className='nav-link text-white' to="/contact">Contact</NavLink>
 
           </Nav>

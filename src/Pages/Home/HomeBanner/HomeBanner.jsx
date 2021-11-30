@@ -23,11 +23,9 @@ const HomeBanner = () => {
                   I am{" "}
                   <span className="text-gradient">Mosharrof Hosen Munna</span>
                 </h1>
-                <h1>A Web Developer</h1>
+                <h2 className='mb-3'>A Web Developer</h2>
                 <p className='text-secondary '>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Deleniti est, blanditiis sed expedita fuga, quod officia quasi
-                  ut, quisquam laborum beatae hic soluta! Voluptates commodi
+                 I am MERN STACK Web Developer. Mainly Focuss on front-end but I like to do back-end and front-end both of side. I always try to my best develop my skills and learn new technologies for growth my professional experience and skills.
                 </p>
               </div>
               <div className="mt-4">

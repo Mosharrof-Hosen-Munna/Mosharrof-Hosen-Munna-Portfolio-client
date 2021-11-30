@@ -1,7 +1,9 @@
 import React from 'react'
+import MySkills from '../Shared/MySkills/MySkills'
 import AboutMe from './AboutMe/AboutMe'
 import ContactMe from './ContactMe/ContactMe'
 import HomeBanner from './HomeBanner/HomeBanner'
+import ProjectsSlide from './ProjectsSlide/ProjectsSlide'
 
 const Home = () => {
     function fullname(){
@@ -13,6 +15,8 @@ const Home = () => {
         <div>
          <HomeBanner/>
          <AboutMe/>
+         <ProjectsSlide/>
+         <MySkills/>
          <ContactMe/>
         </div>
     )
