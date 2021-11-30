@@ -9,7 +9,7 @@ const ProjectsSlide = () => {
       <Container>
         <div className="text-center">
           <h1 className="text-gradient">My Projects</h1>
-          <p className="text-secondary">Top most projects develop by me</p>
+          <p className="text-secondary">Top recent most projects develop by me</p>
         </div>
         <Row xs={1} md={3} lg={3} className="g-4 mt-3">
           <Col>
@@ -49,14 +49,17 @@ const ProjectsSlide = () => {
                     product, make admin, manage orders, add product. (With
                     Front-end and back-end development)
                   </p>
-                  <Link
+                 
+                </div>
+              </Card.Body>
+              <Card.Footer>
+              <Link
                     className="d-flex justify-content-end mx-2"
                     to="/product/35"
                   >
                     More Details
                   </Link>
-                </div>
-              </Card.Body>
+              </Card.Footer>
             </Card>
           </Col>
           <Col>
@@ -97,14 +100,17 @@ const ProjectsSlide = () => {
                     different kinds of tours and plans for holidaymakers. (With
                     Front-end and back-end development).
                   </p>
-                  <Link
+                  
+                </div>
+              </Card.Body>
+              <Card.Footer>
+              <Link
                     className="d-flex justify-content-end mx-2"
                     to="/product/35"
                   >
                     More Details
                   </Link>
-                </div>
-              </Card.Body>
+              </Card.Footer>
             </Card>
           </Col>
           <Col>
@@ -142,14 +148,17 @@ const ProjectsSlide = () => {
                     Application for medical services (Front-end Design
                     development).
                   </p>
-                  <Link
+                  
+                </div>
+              </Card.Body>
+              <Card.Footer>
+              <Link
                     className="d-flex justify-content-end mx-2"
                     to="/product/35"
                   >
                     More Details
                   </Link>
-                </div>
-              </Card.Body>
+              </Card.Footer>
             </Card>
           </Col>
         </Row>

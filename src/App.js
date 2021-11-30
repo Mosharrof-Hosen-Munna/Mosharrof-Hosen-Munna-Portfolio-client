@@ -8,6 +8,8 @@ import Footer from './Pages/Shared/Footer/Footer';
 import About from './Pages/About/About';
 import ProjectDetails from './Pages/ProjectDetails/ProjectDetails';
 import ScrollToTop from './utils/ScrollToTop';
+import Blogs from './Pages/Blogs/Blogs';
+import Services from './Pages/Services/Services';
 function App() {
   return (
     <Router>
@@ -19,6 +21,8 @@ function App() {
        <Route path='/contact' element={<Contact/>}></Route>
        <Route path='/skills' element={<Skills/>}></Route>
        <Route path='/project/:id' element={<ProjectDetails/>} />
+       <Route path='/blogs' element={<Blogs/>} />
+       <Route path='/services' element={<Services/>} />
       </Routes>
       <Footer/>
     </Router>

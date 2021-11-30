@@ -15,7 +15,7 @@ const Navigation = () => {
             <NavLink className='nav-link text-white' to="/about">About</NavLink>
             <NavLink className='nav-link text-white' to="/services">Services</NavLink>
 
-            <NavLink className='nav-link text-white' to="/contact">Skills</NavLink>
+            <NavLink className='nav-link text-white' to="/skills">Skills</NavLink>
             <NavLink className='nav-link text-white' to="/blogs">Blogs</NavLink>
             <NavLink className='nav-link text-white' to="/contact">Contact</NavLink>
 

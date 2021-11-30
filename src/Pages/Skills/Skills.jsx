@@ -1,10 +1,14 @@
 import React from 'react'
+import ProjectsSlide from '../Home/ProjectsSlide/ProjectsSlide'
+import MySkills from '../Shared/MySkills/MySkills'
+import SkillsBanner from './SkillsBanner/SkillsBanner'
 
 const Skills = () => {
     return (
-        <div>
-            <h1 className='text-gradient text-center'>Coming Soon!</h1>
-        </div>
+        <>
+        <MySkills/>
+        <ProjectsSlide/>
+        </>
     )
 }
 

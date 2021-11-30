@@ -1,0 +1,128 @@
+.skills-line-html{
+    width: 100%;
+    position: relative;
+    padding: 7px;
+}
+.skills-line-html::before{
+    content: '';
+    position: absolute;
+    width: 85%;
+    padding: 7px;
+    left: 0;
+    bottom: 0;
+    background-color: #57606f;
+    z-index: 100;
+}
+
+/* javascript */
+.skills-line-javascript{
+    width: 100%;
+    position: relative;
+    padding: 7px;
+}
+.skills-line-javascript::before{
+    content: '';
+    position: absolute;
+    width: 85%;
+    padding: 7px;
+    left: 0;
+    bottom: 0;
+    background-color: #57606f;
+    z-index: 100;
+}
+/* css */
+.skills-line-css{
+    width: 100%;
+    position: relative;
+    padding: 7px;
+}
+.skills-line-css::before{
+    content: '';
+    position: absolute;
+    width: 75%;
+    padding: 7px;
+    left: 0;
+    bottom: 0;
+    background-color: #57606f;
+    z-index: 100;
+}
+/* react */
+.skills-line-react{
+    width: 100%;
+    position: relative;
+    padding: 7px;
+}
+.skills-line-react::before{
+    content: '';
+    position: absolute;
+    width: 90%;
+    padding: 7px;
+    left: 0;
+    bottom: 0;
+    background-color: #57606f;
+    z-index: 100;
+}
+/* nodejs */
+.skills-line-nodejs{
+    width: 100%;
+    position: relative;
+    padding: 7px;
+}
+.skills-line-nodejs::before{
+    content: '';
+    position: absolute;
+    width: 55%;
+    padding: 7px;
+    left: 0;
+    bottom: 0;
+    background-color: #57606f;
+    z-index: 100;
+}
+/* react-bootstrap */
+.skills-line-react-bootstrap{
+    width: 100%;
+    position: relative;
+    padding: 7px;
+}
+.skills-line-react-bootstrap::before{
+    content: '';
+    position: absolute;
+    width: 95%;
+    padding: 7px;
+    left: 0;
+    bottom: 0;
+    background-color: #57606f;
+    z-index: 100;
+}
+/* expressjs */
+.skills-line-expressjs{
+    width: 100%;
+    position: relative;
+    padding: 7px;
+}
+.skills-line-expressjs::before{
+    content: '';
+    position: absolute;
+    width: 65%;
+    padding: 7px;
+    left: 0;
+    bottom: 0;
+    background-color: #57606f;
+    z-index: 100;
+}
+/* mongodb */
+.skills-line-mongodb{
+    width: 100%;
+    position: relative;
+    padding: 7px;
+}
+.skills-line-mongodb::before{
+    content: '';
+    position: absolute;
+    width: 60%;
+    padding: 7px;
+    left: 0;
+    bottom: 0;
+    background-color: #57606f;
+    z-index: 100;
+}
