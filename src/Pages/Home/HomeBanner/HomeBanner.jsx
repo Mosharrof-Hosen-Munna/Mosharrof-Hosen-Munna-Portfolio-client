@@ -12,7 +12,7 @@ const HomeBanner = () => {
           <Col
             className={"d-flex align-items-center "}
           >
-            <div className='py-5'>
+            <div className='py-5' data-aos="fade-right" data-aos-duration="800">
               <div>
                 <span
                   className={`p-2  bg-blue ${HomeBannerClasses.banner_toltip} rounded text-white position-relative fw-bold`}
@@ -41,7 +41,7 @@ const HomeBanner = () => {
             </div>
           </Col>
           <Col  className={"d-flex align-items-center d-none d-lg-block"}>
-                <div className={' w-100 position-relative ' + HomeBannerClasses.banner_image}>
+                <div className={' w-100 position-relative ' + HomeBannerClasses.banner_image} data-aos="fade-left" data-aos-duration="800">
                     <img className={`w-100 `} src={headerImage} alt="" />
                 </div>
           </Col>

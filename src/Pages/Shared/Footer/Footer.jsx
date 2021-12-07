@@ -9,7 +9,7 @@ import {
   faArrowRight,
   faMapMarkerAlt,
   faPhoneAlt,
-  faEnvelope
+  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Footer.css";
@@ -17,15 +17,19 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue py-5">
+    <footer
+      className="bg-blue py-5"
+      // data-aos="fade-zoom-in"
+      // data-aos-duration="800"
+    >
       <Container>
         <Row xs={1} md={4}>
           <Col>
             <div>
               <h3 className="text-white">Lets talk about!</h3>
               <p className="text-light-blue">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloribus expedita doloremque, obcaecati id sed dolorum!
+                I am MERN STACK Web Developer. Mainly Focuss on front-end but I
+                like to do back-end and front-end both of side.
               </p>
               <div>
                 <a
@@ -200,9 +204,7 @@ const Footer = () => {
                     className="text-white fa-1x me-3"
                   />
                 </div>
-                <div className="text-light-blue">
-                 +88 01986-116253
-                </div>
+                <div className="text-light-blue">+88 01986-116253</div>
               </div>
               <div className="d-flex mt-3">
                 <div>
@@ -212,9 +214,7 @@ const Footer = () => {
                     className="text-white fa-1x me-3"
                   />
                 </div>
-                <div className="text-light-blue">
-                 mosharrofmunna0@gmail.com
-                </div>
+                <div className="text-light-blue">mosharrofmunna0@gmail.com</div>
               </div>
             </div>
           </Col>

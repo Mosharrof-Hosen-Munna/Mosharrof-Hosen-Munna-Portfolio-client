@@ -7,7 +7,7 @@ const Navigation = () => {
   return (
     <Navbar className='bg-blue fw-bold text-white' sticky='top' expand="lg">
       <Container>
-        <NavLink className='text-white text-decoration-none fs-3' to='/'>MUN<span style={{color:'#00ff7e'}}>NA .</span></NavLink>
+        <NavLink className='text-white text-decoration-none fs-3' to='/'>MUN<span style={{color:'#02ffe7'}}>NA .</span></NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

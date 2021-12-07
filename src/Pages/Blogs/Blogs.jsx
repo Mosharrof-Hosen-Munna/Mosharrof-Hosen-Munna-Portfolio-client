@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import comingSoonImg from "../../Assets/Images/coming-soon.svg";
 
 const Blogs = () => {
+  function add() {}
   return (
     <div className="text-center text-gradient" style={{ minHeight: "600px" }}>
       <Container>

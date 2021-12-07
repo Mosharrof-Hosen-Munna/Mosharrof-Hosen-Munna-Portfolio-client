@@ -1,0 +1,10 @@
+.grey_scale {
+  filter: grayscale(1);
+  transition: 0.3s;
+}
+.grey_scale:hover {
+  filter: grayscale(0);
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.1);
+}

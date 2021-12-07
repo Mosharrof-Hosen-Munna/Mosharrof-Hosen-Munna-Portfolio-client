@@ -7,35 +7,35 @@ const ProjectsSlide = () => {
   return (
     <section className="py-4 bg-light-blue">
       <Container>
-        <div className="text-center">
+        <div className="text-center"  data-aos='fade-up' >
           <h1 className="text-gradient">My Projects</h1>
           <p className="text-secondary">Top recent most projects develop by me</p>
         </div>
         <Row xs={1} md={3} lg={3} className="g-4 mt-3">
           <Col>
-            <Card className="border-0 shadow h-100">
+            <Card className="border-0 shadow h-100" data-aos='flip-left' >
               <div className="project-img-container">
                 <div className="project-img project1"></div>
               </div>
               <Card.Body className="px-1 py-">
                 <div className="d-flex project-technology flex-wrap">
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-1">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-1">
                     ReactJS
                   </span>
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-2">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-2">
                     React-Bootstrap
                   </span>
                   
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-3">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-3">
                     MongoDB
                   </span>
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-3">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-3">
                     Firebase
                   </span>
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-1">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-1">
                     ExpressJS
                   </span>
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-2">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-2">
                     Node
                   </span>
                 </div>
@@ -52,43 +52,50 @@ const ProjectsSlide = () => {
                  
                 </div>
               </Card.Body>
-              <Card.Footer>
-              <Link
-                    className="d-flex justify-content-end mx-2"
-                    to="/product/35"
+              <Card.Footer className="d-flex justify-content-between ">
+              <a
+                    className=" text-decoration-none "
+                    href="https://smartfury-0.web.app/home"
+                    target="_blank"
                   >
-                    More Details
+                   <button className='bg-1 rounded-pill outline-none border-0 text-white px-2'> Live Preview</button>
+                  </a>
+              <Link
+                    className=" mx-1 text-decoration-none "
+                    to="/project/smartFury"
+                  >
+                   <button className='bg-blue rounded-pill outline-none border-0 text-white px-2'> See Details</button>
                   </Link>
               </Card.Footer>
             </Card>
           </Col>
           <Col>
-            <Card className="border-0 shadow  h-100">
+            <Card className="border-0 shadow  h-100" data-aos='flip-left' >
               <div className="project-img-container">
                 <div className="project-img project-2"></div>
               </div>
               <Card.Body className="px-1 py-">
                 <div className="d-flex project-technology flex-wrap">
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-1">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-1">
                     ReactJS
                   </span>
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-3">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-3">
                     React-Router
                   </span>
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-3">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-3">
                     Firebase
                   </span>
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-2">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-2">
                     Node
-                  </span>
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-3">
+                  </span> 
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-3">
                     MongoDB
                   </span>
                   
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-1">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-1">
                     ExpressJS
                   </span>
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-2">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-2">
                     React-Bootstrap
                   </span>
                   
@@ -103,39 +110,46 @@ const ProjectsSlide = () => {
                   
                 </div>
               </Card.Body>
-              <Card.Footer>
-              <Link
-                    className="d-flex justify-content-end mx-2"
-                    to="/product/35"
+              <Card.Footer className="d-flex justify-content-between ">
+              <a
+                    className=" text-decoration-none "
+                    href="https://holiday-planners.web.app/"
+                    target="_blank"
                   >
-                    More Details
+                   <button className='bg-1 rounded-pill outline-none border-0 text-white px-2'> Live Preview</button>
+                  </a>
+              <Link
+                    className=" mx-1 text-decoration-none "
+                    to="/project/smartFury"
+                  >
+                   <button className='bg-blue rounded-pill outline-none border-0 text-white px-2'> See Details</button>
                   </Link>
               </Card.Footer>
             </Card>
           </Col>
           <Col>
-            <Card className="border-0 shadow h-100">
+            <Card className="border-0 shadow h-100" data-aos='flip-left'>
               <div className="project-img-container">
                 <div className="project-img project3"></div>
               </div>
               <Card.Body className="px-1 py-">
                 <div className="d-flex project-technology flex-wrap">
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-1">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-1">
                     ReactJS
                   </span>
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-2">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-2">
                     Node
-                  </span>
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-3">
+                  </span> 
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-3">
                     MongoDB
                   </span>
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-3">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-3">
                     Firebase
                   </span>
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-1">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-1">
                     ExpressJS
                   </span>
-                  <span className="py-1 m-1 px-3 fw-bold text-white rounded-pill bg-2">
+                  <span className=" m-1 px-3 fw-bold text-white rounded-pill bg-2">
                     React-Bootstrap
                   </span>
                 </div>
@@ -151,12 +165,19 @@ const ProjectsSlide = () => {
                   
                 </div>
               </Card.Body>
-              <Card.Footer>
-              <Link
-                    className="d-flex justify-content-end mx-2"
-                    to="/product/35"
+              <Card.Footer className="d-flex justify-content-between ">
+              <a
+                    className=" text-decoration-none "
+                    href="https://medicare-f4600.web.app/"
+                    target="_blank"
                   >
-                    More Details
+                   <button className='bg-1 rounded-pill outline-none border-0 text-white px-2'> Live Preview</button>
+                  </a>
+              <Link
+                    className=" mx-1 text-decoration-none "
+                    to="/project/smartFury"
+                  >
+                   <button className='bg-blue rounded-pill outline-none border-0 text-white px-2'> See Details</button>
                   </Link>
               </Card.Footer>
             </Card>

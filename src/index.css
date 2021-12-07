@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+    font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,6 +16,9 @@ code {
 
 
 /* custom style start */
+.fs-14{
+  font-size: 14px !important;
+}
 .bg-dark-light{
   background-color: #57606f !important;
 }
@@ -34,6 +39,9 @@ code {
 /* #546de5 */
 .text-pink{
   color: #ff1a40 !important;
+}
+.pointer{
+  cursor: pointer !important;
 }
 .text-gradient{
     position: relative;
